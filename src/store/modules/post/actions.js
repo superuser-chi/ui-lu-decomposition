@@ -144,7 +144,7 @@ export default {
   ) {
     return new Promise((resolve, reject) => {
       axios
-        .post("/faas/fn-lu-decomposition", post, {
+        .post("https://faas.serv.mathsgaze.com/function/fn-lu-decomposition", post, {
           headers: headers
         })
         .then(
