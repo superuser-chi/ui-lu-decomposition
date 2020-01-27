@@ -17,7 +17,7 @@ module.exports = {
         }
       },
       "/faas": {
-        target: "http://127.0.0.1:8080/function/",
+        target: "https://faas.serv.mathsgaze.com/function/",
         changeOrigin: true,
         ws: true,
         pathRewrite: {
